@@ -106,7 +106,7 @@ Usando `$_SERVER['PATH_INFO']`:
 server {
     listen      80;
     server_name localhost.dev;
-    root        /var/www/kumbiaphp;
+    root        /var/www/kumbiaphp/default/public;
     index       index.php index.html index.htm;
 
     location / {
@@ -137,7 +137,7 @@ Usando `$_GET['_url']`:
 server {
     listen      80;
     server_name localhost.dev;
-    root        /var/www/kumbiaphp;
+    root        /var/www/kumbiaphp/default/public;
     index       index.php index.html index.htm;
 
     location / {
